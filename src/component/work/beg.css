@@ -1,0 +1,125 @@
+.main_bag_div {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-top: 5px solid black;
+    margin-left: 60px;
+
+}
+
+.heading {
+    margin-left: 100px;
+    /* display: block; */
+}
+
+/* .head {
+    margin-left: 50px;
+} */
+.main {
+    /* display: flex; */
+    align-items: center;
+}
+
+.second_div {
+    /* margin-left: 60px; */
+    width: 90%;
+}
+
+.counter_button {
+    margin-top: 30px;
+    border: none;
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 20px;
+    /* margin-bottom: 50px; */
+
+}
+
+.counter_button:hover {
+    cursor: pointer;
+}
+
+.icon_span:hover {
+    cursor: pointer;
+}
+
+.siza_span {
+    margin: 0px 10px;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.counter_main_div {
+    margin-left: 90%;
+    margin-top: -235px;
+}
+
+.counter_heading {
+    margin-left: 10px;
+}
+
+.count_heading {
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.total_heading {
+    margin-left: 30px;
+}
+
+.beg_div {
+    margin-top: 30px;
+}
+
+.beg_span {
+    border: 1px solid black;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.main_first_div {
+    margin-top: 30px;
+}
+
+.bag_color_span {
+    height: 40px;
+    width: 40px;
+    background-color: green;
+    margin: 0px 10px;
+    border: none;
+    margin-left: -1px;
+}
+
+.red {
+    background-color: red;
+}
+
+.black {
+    background-color: black;
+}
+
+.beg_counter_div {
+    margin-left: -34px;
+}
+
+.beg_images {
+    margin-top: 50px;
+    height: 350px;
+    width: 300px;
+}
+
+.pdf_div {
+    margin-left: 60px;
+    height: auto;
+}
+
+@media screen and (max-width: 600px) {
+    .main {
+        margin-top: 80px;
+    }.main_bag_div {
+        margin: 0px;
+        padding: 20px;
+        width: 100%;
+    }
+}

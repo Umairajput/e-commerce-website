@@ -1,0 +1,263 @@
+.navbar_div {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.woman_heading {
+    margin-left: 45px;
+    margin-top: -20px;
+}
+.women {
+    margin-left: 45px;
+    margin-top: -90px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+a {
+    padding: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+a:focus {
+    color: green;
+}
+
+a:hover {
+    color: green;
+}
+
+.data_div {
+    height: auto;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.images {
+    height: 400px;
+    width: 300px;
+}
+
+.colorSpan {
+    height: 30px;
+    width: 30px;
+    background-color: green;
+    margin: 0px 5px;
+    border: none;
+}
+
+.red {
+    background-color: red;
+}
+
+.black {
+    background-color: black;
+}
+
+.main_buttons {
+    border: 1px solid black;
+    border-radius: 0px;
+    padding: 10px;
+    cursor: pointer;
+    width: 200px;
+    height: 60px;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    /* margin-top: 50px; */
+    margin-bottom: 20px;
+    /* margin-left: 50px; */
+}
+
+.small_images {
+    height: 80px;
+    width: 80px;
+    margin-top: 10px;
+}
+
+.images_main_div {
+    display: flex;
+    width: 50%;
+    justify-content: space-evenly;
+    /* margin-left: 50px; */
+}
+
+.bag_component_main_div {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.price_div {
+    width: 50%;
+}
+
+.button {
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    border-radius: 0px;
+    margin: 0px 10px;
+}
+
+.button_1 {
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    border-radius: 0px;
+    background-color: black;
+    color: white;
+}
+
+.colors {
+    height: 40px;
+    width: 40px;
+    background-color: black;
+    border-radius: 0px;
+    margin: 0px 10px;
+}
+
+.colors_1 {
+    height: 40px;
+    width: 40px;
+    background-color: red;
+    border-radius: 0px;
+    margin-right: 10px;
+}
+
+.main_buttons:hover {
+    background-color: #13e436;
+    border-radius: 0px;
+    border: none;
+}
+
+.btn {
+    height: 40px;
+    width: 120px;
+    border: 2px solid #13e436;
+    /* margin: 0px 1px; */
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* .MuiSvgIcon-root, .MuiSvgIcon-fontSizeMedium, .shop_icon, .css-i4bv87-MuiSvgIcon-root{
+    margin-top: '-45px';
+    color: 'black'
+} */
+.modal_main_div {
+    text-align: 'center';
+    margin-top: '10px'
+}
+
+.modal_first_div {
+    text-align: 'center';
+    margin-top: '20px';
+    font-size: 20px;
+}
+
+.modal_img {
+    width: 150px;
+    height: 150px;
+    margin-top: 15px;
+}
+
+.modal_second_div {
+    text-align: center;
+    margin-top: -10px;
+}
+
+.size_spans {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.modal_third_div {
+    margin-top: 20px;
+}
+
+.navbar_main_div {
+    margin-right: 50px;
+}
+
+.main_box {
+    display: none;
+}
+
+/* .navbar_div{
+    display: block;
+} */
+@media only screen and (max-width:640px) {
+    .navbar_div {
+        display: none;
+    }
+
+    .main_box {
+        display: block;
+    }
+
+    ul {
+        display: block;
+    }
+
+    .addIcon {
+        margin-left: 18px;
+    }
+
+    .shop_icon {
+        margin-top: 50px;
+    }
+
+    a {
+        color: black !important;
+    }
+
+    .MuiTypography-root,
+    .MuiTypography-body1,
+    .MuiListItemText-primary,
+    .css-10hburv-MuiTypography-root {
+        margin-left: 20px !important;
+    }
+
+    .MuiButtonBase-root,
+    .MuiListItemButton-root,
+    .MuiListItemButton-gutters,
+    .css-16ac5r2-MuiButtonBase-root-MuiListItemButton-root {
+        margin-top: 20px;
+    }
+}
+
+.MuiToolbar-root,
+.MuiToolbar-gutters,
+.MuiToolbar-regular,
+.css-hyum1k-MuiToolbar-root {
+    background-color: white;
+}
+
+.MuiButtonBase-root,
+.MuiIconButton-root,
+.MuiIconButton-colorInherit,
+.MuiIconButton-edgeStart,
+.MuiIconButton-sizeMedium,
+.css-134qg7o-MuiButtonBase-root-MuiIconButton-root {
+    color: black !important;
+}
+
+@media only screen and (max-width:620px) {
+    .side_bar {
+        margin-top: 60px;
+        z-index: 30;
+    }.woman_heading {
+        margin-top: 80px;
+        /* padding-left: 23px; */
+    }.women {
+        margin-top: 20px;
+    }
+}
